@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.gpsdozor.cz)",
+      "Bash(curl -s -u \"api_gpsdozor:yakmwlARdn\" \"https://a1.gpsguard.eu/api/v1/groups\")",
+      "Bash(curl -s -u \"api_gpsdozor:yakmwlARdn\" \"https://a1.gpsguard.eu/api/v1/vehicles/group/SAGU\")",
+      "Bash(python3:*)",
+      "Bash(curl:*)",
+      "Bash(npm create vite@latest:*)",
+      "Bash(npm install:*)",
+      "Bash(npx vue-tsc:*)",
+      "Bash(pkill:*)",
+      "Bash(npx vite build:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm test:*)",
+      "Bash(ls:*)"
+    ]
+  },
+  "preferredModel": "sonnet",
+  "contextFiles": [
+    "README.md",
+    "tasks.md",
+    "details.md",
+    "PRD.md"
+  ]
+}
